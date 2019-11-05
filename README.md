@@ -2,7 +2,7 @@
 
 Projeto disponível para acesso em: https://nitaicharan.github.io/Udemy-ACSSSASSFGAM/
 
-![app](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSaSu2Zc3H6XM1CR_VYCs6NbkX8EVJ5YdOYJs1ejzv9e-tkKT9N)
+![app](https://github.com/nitaicharan/Udemy-ACSSSASSFGAM/blob/master/app.jpg?raw=true)
 
 ## Deploy
 ```
