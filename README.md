@@ -1,17 +1,20 @@
-## Udemy-AdvancedCSSAndSassFlexboxGridAnimationsAndMore
+## Udemy-ACSSSASSFGAM
+
+Projeto disponível para acesso em: https://nitaicharan.github.io/Udemy-ACSSSASSFGAM/
+
 ![app](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSaSu2Zc3H6XM1CR_VYCs6NbkX8EVJ5YdOYJs1ejzv9e-tkKT9N)
 
 ## Deploy
 ```
-rm pages -rf
-mkdir -p pages
-cp -fr * pages/
+ng build
+index.html:base:"/" -> index.html:base:"/Udemy-HTML5ParaQuemNaoSabeNadaDeHTML5/"
+cp dist/curso/index.html dist/curso/404.html
 
 git add -A
 git commit -m <titule> <message>
-git push <remote> <branch>
+git push origin <branch>
 git push --delete origin gh-pages
-git subtree push --prefix pages/ origin gh-pages
+git subtree push --prefix dist/curso origin gh-pages
 ```
 
 ## Informações sobre o curso
@@ -146,3 +149,29 @@ Then don't waste your time with random tutorials or incomplete videos. All my co
 *These courses are exactly the courses I wish I had when I was first getting into web development!*
 
 So see for yourself, enroll in one of my courses (or all of them :D) and join my 500,000+ happy students today.
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.13.
+
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
