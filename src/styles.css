@@ -32,6 +32,7 @@ body {
     top: 40%;
     left: 50%;
     transform: translate(-50%,-50%);
+    text-align: center;
 }
 
 .logo-box {
@@ -46,8 +47,9 @@ body {
 
 .heading-primary {
     color: #fff;
-    text-transform: uppercase;
     backface-visibility: hidden;
+    margin-bottom: 60px;
+    text-transform: uppercase;
 }
 .heading-primary-main {
     display: block;
@@ -69,27 +71,52 @@ body {
 @keyframes moveInLeft {
     0%{
         opacity: 0;
-        transform: translatex(-100px);
+        transform: translateX(-100px);
     }
     80%{
-        transform: translatex(10px);
+        transform: translateX(10px);
     }
     100%{
         opacity: 1;
-        transform: translatex(0);
+        transform: translateX(0);
     }
 }
 
 @keyframes moveInRight {
     0%{
         opacity: 0;
-        transform: translatex(100px);
+        transform: translateX(100px);
     }
     80%{
-        transform: translatex(-10px);
+        transform: translateX(-10px);
     }
     100%{
         opacity: 1;
-        transform: translatex(0);
+        transform: translateX(0);
     }
+}
+
+.btn:link
+,.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .1s;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.btn-white {
+    background: #fff;
+    color: #777;
 }
