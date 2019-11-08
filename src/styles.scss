@@ -2,9 +2,11 @@
 @import 'assets/sass/abstracts/mixins';
 @import 'assets/sass/abstracts/variables';
 
-@import 'assets/sass/base/animations';
-@import 'assets/sass/base/base';
-@import 'assets/sass/base/utilities';
+@import 'assets/sass/bases/animations';
+@import 'assets/sass/bases/base';
+@import 'assets/sass/bases/utilities';
+
+@import 'assets/sass/layouts/grid';
 
 @import 'assets/sass/components/button';
 
