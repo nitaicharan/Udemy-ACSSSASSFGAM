@@ -1,4 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
-html {
-    font-size: 10px;
-}
+@import 'assets/sass/abstracts/functions';
+@import 'assets/sass/abstracts/mixins';
+@import 'assets/sass/abstracts/variables';
+
+@import 'assets/sass/base/animations';
+@import 'assets/sass/base/base';
+@import 'assets/sass/base/utilities';
+
+@import 'assets/sass/components/button';
+
+@import 'assets/sass/pages/home';
