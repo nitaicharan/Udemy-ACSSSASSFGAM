@@ -1,5 +1,4 @@
 ## Udemy-ACSSSASSFGAM
-
 <!-- PROJECT SHIELDS -->
 ![Angular][angular-shield]
 ![TypeScript][typescript-shield]
@@ -7,10 +6,11 @@
 ![CSS3][css3-shield]
 ![SASS][sass-shield]
 ![VIM][vim-shield]
+![Udemy][udemy-shield]
 
-Projeto disponível para acesso em: https://nitaicharan.github.io/Udemy-ACSSSASSFGAM/
+Project available to access at: https://nitaicharan.github.io/Udemy-ACSSSASSFGAM/
 
-![app](https://github.com/nitaicharan/Udemy-ACSSSASSFGAM/blob/master/Udemy-ACSSSASSFGAM.png?raw=true)
+![](https://github.com/nitaicharan/Udemy-ACSSSASSFGAM/blob/master/Udemy-ACSSSASSFGAM.gif?raw=true)
 
 ## Deploy
 ```
@@ -25,7 +25,7 @@ git push --delete origin gh-pages
 git subtree push --prefix dist/curso origin gh-pages
 ```
 
-## Informações sobre o curso
+## About course
 Advanced CSS and Sass: Flexbox, Grid, Animations and More!
 <br>The most advanced and modern CSS course on the internet: master flexbox, CSS Grid, responsive design, and so much more.
 
@@ -185,14 +185,12 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ## Contact
-
 [![Gmail][gmail-shield]][gmail-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![Github][github-shield]][github-url]
 [![Udemy][udemy-shield]][udemy-url]
 [![Instagram][instagram-shield]][instagram-url]
 [![Twitter][twitter-shield]][twitter-url]
-[![Facebook][facebook-shield]][facebook-url]
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -223,3 +221,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 [javascript-shield]: https://img.shields.io/badge/-JavaScript-black.svg?logoColor=white&logo=javascript&&colorB=F7DF1E
 [typescript-shield]: https://img.shields.io/badge/-TypeScript-black.svg?logoColor=white&logo=typescript&&colorB=007ACC
 [react-shield]: https://img.shields.io/badge/-React-black.svg?logoColor=white&logo=react&colorB=61DAFB
+
+## License
+Copyright &copy; Nitai Charan Alvares Pereira. All rights reserved.
+
+Licensed under the [GNU General Public License v3.0](LICENSE) license.
