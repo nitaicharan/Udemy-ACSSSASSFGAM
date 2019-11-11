@@ -39,7 +39,7 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("<app-header></app-header>\n<app-about></app-about>\n<app-features></app-features>\n<app-tours></app-tours>\n");
+            /* harmony default export */ __webpack_exports__["default"] = ("<app-header></app-header>\n<app-about></app-about>\n<app-features></app-features>\n<app-tours></app-tours>\n<app-stories></app-stories>\n");
             /***/ 
         }),
         /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/features/features.component.html": 
@@ -62,6 +62,17 @@
             "use strict";
             __webpack_require__.r(__webpack_exports__);
             /* harmony default export */ __webpack_exports__["default"] = ("<header class=\"header\">\n    <div class=\"header__logo-box\">\n        <img src=\"assets/img/logo-white.png\" alt=\"Logo\" class=\"header__logo\">\n    </div>\n    <div class=\"header__text-box\">\n        <h1 class=\"heading-primary\">\n            <span class=\"heading-primary--main\">Outdoors</span>\n            <span class=\"heading-primary--sub\">is where life happens</span>\n        </h1>\n\n        <a class=\"btn btn--white btn--animated\" href=\"#\">Discover our tours</a>\n    </div>\n</header>\n");
+            /***/ 
+        }),
+        /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/stories/stories.component.html": 
+        /*!**************************************************************************************!*\
+          !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/stories/stories.component.html ***!
+          \**************************************************************************************/
+        /*! exports provided: default */
+        /***/ (function (module, __webpack_exports__, __webpack_require__) {
+            "use strict";
+            __webpack_require__.r(__webpack_exports__);
+            /* harmony default export */ __webpack_exports__["default"] = ("<section class=\"section-stories\">\n    <div class=\"u-center-text u-margin-bottom-big\">\n        <h2 class=\"heading-secondary\">\n            We make people genuinely happy\n        </h2>\n    </div>\n\n    <div class=\"row\">\n        <div class=\"story\">\n            <figure class=\"story__shape\">\n                <img src=\"assets/img/nat-8.jpg\" alt=\"Person on a tour\" class=\"story__img\">\n            </figure>\n            <div class=\"story__text\">\n                <h3 class=\"heading-tertiary u-margin-bottom-small\">I had the best week ever witch my family</h3>\n                <p>Dolor nesciunt nam rerum quasi tempora? Laborum a corrupti sed accusamus dolor necessitatibus minima odio esse? Suscipit vel a soluta vitae consectetur Ducimus atque voluptate aliquam maxime quibusdam Quidem excepturi?</p>\n            </div>\n        </div>\n    </div>\n</section>\n");
             /***/ 
         }),
         /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/tours/tours.component.html": 
@@ -494,6 +505,7 @@
             /* harmony import */ var _about_about_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./about/about.component */ "./src/app/about/about.component.ts");
             /* harmony import */ var _features_features_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./features/features.component */ "./src/app/features/features.component.ts");
             /* harmony import */ var _tours_tours_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./tours/tours.component */ "./src/app/tours/tours.component.ts");
+            /* harmony import */ var _stories_stories_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./stories/stories.component */ "./src/app/stories/stories.component.ts");
             var AppModule = /** @class */ (function () {
                 function AppModule() {
                 }
@@ -506,7 +518,8 @@
                         _header_header_component__WEBPACK_IMPORTED_MODULE_5__["HeaderComponent"],
                         _about_about_component__WEBPACK_IMPORTED_MODULE_6__["AboutComponent"],
                         _features_features_component__WEBPACK_IMPORTED_MODULE_7__["FeaturesComponent"],
-                        _tours_tours_component__WEBPACK_IMPORTED_MODULE_8__["ToursComponent"]
+                        _tours_tours_component__WEBPACK_IMPORTED_MODULE_8__["ToursComponent"],
+                        _stories_stories_component__WEBPACK_IMPORTED_MODULE_9__["StoriesComponent"]
                     ],
                     imports: [
                         _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -592,6 +605,44 @@
                     styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./header.component.scss */ "./src/app/header/header.component.scss")).default]
                 })
             ], HeaderComponent);
+            /***/ 
+        }),
+        /***/ "./src/app/stories/stories.component.scss": 
+        /*!************************************************!*\
+          !*** ./src/app/stories/stories.component.scss ***!
+          \************************************************/
+        /*! exports provided: default */
+        /***/ (function (module, __webpack_exports__, __webpack_require__) {
+            "use strict";
+            __webpack_require__.r(__webpack_exports__);
+            /* harmony default export */ __webpack_exports__["default"] = (".section-stories {\n  padding: 15rem 0;\n  background-color: #f7f7f7;\n}\n\n.story {\n  width: 75%;\n  margin: 0 auto;\n  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);\n  background-color: #fff;\n  border-radius: 3px;\n  padding: 6rem;\n  padding-left: 9rem;\n  font-size: 1.6rem;\n  transform: skewX(-12deg);\n}\n\n.story__shape {\n  width: 15rem;\n  height: 15rem;\n  float: left;\n  shape-outside: circle(50% at 50% 50%);\n  -webkit-clip-path: circle(50% at 50% 50%);\n  clip-path: circle(50% at 50% 50%);\n  transform: translateX(-3rem) skewX(12deg);\n}\n\n.story__img {\n  height: 100%;\n}\n\n.story__text {\n  transform: skewX(12deg);\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2FjZGFuL0dpdC9VZGVteS1BQ1NTU0FTU0ZHQU0vc3JjL2FwcC9zdG9yaWVzL3N0b3JpZXMuY29tcG9uZW50LnNjc3MiLCIvaG9tZS9hY2Rhbi9HaXQvVWRlbXktQUNTU1NBU1NGR0FNL3NyYy9hc3NldHMvc2Fzcy9hYnN0cmFjdHMvX3ZhcmlhYmxlcy5zY3NzIiwic3JjL2FwcC9zdG9yaWVzL3N0b3JpZXMuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUE7RUFDSSxnQkFBQTtFQUNBLHlCQ09pQjtBQ1JyQjs7QUZJQTtFQUNJLFVBQUE7RUFDQSxjQUFBO0VBQ0EsMENBQUE7RUFDQSxzQkNTVTtFRFJWLGtCQUFBO0VBQ0EsYUFBQTtFQUNBLGtCQUFBO0VBQ0EsaUJDVWdCO0VEVGhCLHdCQUFBO0FFREo7O0FGR0k7RUFDSSxZQUFBO0VBQ0EsYUFBQTtFQUNBLFdBQUE7RUFFQSxxQ0FBQTtFQUNBLHlDQUFBO0VBQ0EsaUNBQUE7RUFDQSx5Q0FBQTtBRURSOztBRklJO0VBQ0ksWUFBQTtBRUZSOztBRktJO0VBQ0ksdUJBQUE7QUVIUiIsImZpbGUiOiJzcmMvYXBwL3N0b3JpZXMvc3Rvcmllcy5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIkBpbXBvcnQgJy4uLy4uL2Fzc2V0cy9zYXNzL2Fic3RyYWN0cy92YXJpYWJsZXMnO1xuXG4uc2VjdGlvbi1zdG9yaWVzIHtcbiAgICBwYWRkaW5nOiAxNXJlbSAwO1xuICAgIGJhY2tncm91bmQtY29sb3I6ICRjb2xvci1ncmV5LWxpZ2h0LTE7XG59XG5cbi5zdG9yeSB7XG4gICAgd2lkdGg6IDc1JTtcbiAgICBtYXJnaW46IDAgYXV0bztcbiAgICBib3gtc2hhZG93OiAwIDNyZW0gNnJlbSByZ2JhKCRjb2xvci1ibGFjaywgLjEpO1xuICAgIGJhY2tncm91bmQtY29sb3I6ICRjb2xvci13aGl0ZTtcbiAgICBib3JkZXItcmFkaXVzOiAzcHg7XG4gICAgcGFkZGluZzogNnJlbTtcbiAgICBwYWRkaW5nLWxlZnQ6IDlyZW07XG4gICAgZm9udC1zaXplOiAkZGVmYXVsdC1mb250LXNpemU7XG4gICAgdHJhbnNmb3JtOiBza2V3WCgtMTJkZWcpO1xuXG4gICAgJl9fc2hhcGUgIHtcbiAgICAgICAgd2lkdGg6IDE1cmVtO1xuICAgICAgICBoZWlnaHQ6IDE1cmVtO1xuICAgICAgICBmbG9hdDogbGVmdDtcbiAgICAgICAgLXdlYmtpdC1zaGFwZS1vdXRzaWRlOiBjaXJjbGUoNTAlIGF0IDUwJSA1MCUpOyBcbiAgICAgICAgc2hhcGUtb3V0c2lkZTogY2lyY2xlKDUwJSBhdCA1MCUgNTAlKTsgXG4gICAgICAgIC13ZWJraXQtY2xpcC1wYXRoOiBjaXJjbGUoNTAlIGF0IDUwJSA1MCUpOyBcbiAgICAgICAgY2xpcC1wYXRoOiBjaXJjbGUoNTAlIGF0IDUwJSA1MCUpOyBcbiAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVYKC0zcmVtKSBza2V3WCgxMmRlZyk7XG4gICAgfVxuXG4gICAgJl9faW1nICB7XG4gICAgICAgIGhlaWdodDogMTAwJTtcbiAgICB9XG5cbiAgICAmX190ZXh0ICB7XG4gICAgICAgIHRyYW5zZm9ybTogc2tld1goMTJkZWcpO1xuICAgIH1cbn1cbiIsIi8vIENPTE9SU1xuJGNvbG9yLXByaW1hcnk6ICM1NWM1N2E7XG4kY29sb3ItcHJpbWFyeS1saWdodDogIzdlZDU2ZjtcbiRjb2xvci1wcmltYXJ5LWRhcms6ICMyOGI0ODU7XG5cbiRjb2xvci1zZWNvbmRhcnktbGlnaHQ6ICNmZmI5MDA7XG4kY29sb3Itc2Vjb25kYXJ5LWRhcms6ICNmZjc3MzA7XG5cbiRjb2xvci10ZXJ0aWFyeS1saWdodDogIzI5OThmZjtcbiRjb2xvci10ZXJ0aWFyeS1kYXJrOiAjNTY0M2ZhO1xuXG4kY29sb3ItZ3JleS1saWdodC0xOiAjZjdmN2Y3O1xuJGNvbG9yLWdyZXktbGlnaHQtMjogI2VlZTtcblxuXG4kY29sb3ItZ3JleS1kYXJrOiAjNzc3O1xuJGNvbG9yLWdyZXktZGFyay0yOiAjOTk5O1xuJGNvbG9yLWdyZXktZGFyay0zOiAjMzMzO1xuXG5cbiRjb2xvci13aGl0ZTogI2ZmZjtcbiRjb2xvci1ibGFjazogIzAwMDtcblxuLy8gRk9OVFxuXG4kZGVmYXVsdC1mb250LXNpemU6IDEuNnJlbTtcblxuLy8gR1JJRFxuJGdyaWQtd2lkdGg6IDExNHJlbTtcbiRndXR0ZXItdmVydGljYWw6IDhyZW07XG4kZ3V0dGVyLWhvcml6b250YWw6IDZyZW07XG4iLCIuc2VjdGlvbi1zdG9yaWVzIHtcbiAgcGFkZGluZzogMTVyZW0gMDtcbiAgYmFja2dyb3VuZC1jb2xvcjogI2Y3ZjdmNztcbn1cblxuLnN0b3J5IHtcbiAgd2lkdGg6IDc1JTtcbiAgbWFyZ2luOiAwIGF1dG87XG4gIGJveC1zaGFkb3c6IDAgM3JlbSA2cmVtIHJnYmEoMCwgMCwgMCwgMC4xKTtcbiAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZjtcbiAgYm9yZGVyLXJhZGl1czogM3B4O1xuICBwYWRkaW5nOiA2cmVtO1xuICBwYWRkaW5nLWxlZnQ6IDlyZW07XG4gIGZvbnQtc2l6ZTogMS42cmVtO1xuICB0cmFuc2Zvcm06IHNrZXdYKC0xMmRlZyk7XG59XG4uc3RvcnlfX3NoYXBlIHtcbiAgd2lkdGg6IDE1cmVtO1xuICBoZWlnaHQ6IDE1cmVtO1xuICBmbG9hdDogbGVmdDtcbiAgLXdlYmtpdC1zaGFwZS1vdXRzaWRlOiBjaXJjbGUoNTAlIGF0IDUwJSA1MCUpO1xuICBzaGFwZS1vdXRzaWRlOiBjaXJjbGUoNTAlIGF0IDUwJSA1MCUpO1xuICAtd2Via2l0LWNsaXAtcGF0aDogY2lyY2xlKDUwJSBhdCA1MCUgNTAlKTtcbiAgY2xpcC1wYXRoOiBjaXJjbGUoNTAlIGF0IDUwJSA1MCUpO1xuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVgoLTNyZW0pIHNrZXdYKDEyZGVnKTtcbn1cbi5zdG9yeV9faW1nIHtcbiAgaGVpZ2h0OiAxMDAlO1xufVxuLnN0b3J5X190ZXh0IHtcbiAgdHJhbnNmb3JtOiBza2V3WCgxMmRlZyk7XG59Il19 */");
+            /***/ 
+        }),
+        /***/ "./src/app/stories/stories.component.ts": 
+        /*!**********************************************!*\
+          !*** ./src/app/stories/stories.component.ts ***!
+          \**********************************************/
+        /*! exports provided: StoriesComponent */
+        /***/ (function (module, __webpack_exports__, __webpack_require__) {
+            "use strict";
+            __webpack_require__.r(__webpack_exports__);
+            /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StoriesComponent", function () { return StoriesComponent; });
+            /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+            /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+            var StoriesComponent = /** @class */ (function () {
+                function StoriesComponent() {
+                }
+                StoriesComponent.prototype.ngOnInit = function () {
+                };
+                return StoriesComponent;
+            }());
+            StoriesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+                Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+                    selector: 'app-stories',
+                    template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./stories.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/stories/stories.component.html")).default,
+                    styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./stories.component.scss */ "./src/app/stories/stories.component.scss")).default]
+                })
+            ], StoriesComponent);
             /***/ 
         }),
         /***/ "./src/app/tours/tours.component.scss": 
