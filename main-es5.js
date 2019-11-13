@@ -39,7 +39,18 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("<app-header></app-header>\n<app-about></app-about>\n<app-features></app-features>\n<app-tours></app-tours>\n<app-stories></app-stories>\n");
+            /* harmony default export */ __webpack_exports__["default"] = ("<app-header></app-header>\n<app-about></app-about>\n<app-features></app-features>\n<app-tours></app-tours>\n<app-stories></app-stories>\n<app-book></app-book>\n");
+            /***/ 
+        }),
+        /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/book/book.component.html": 
+        /*!********************************************************************************!*\
+          !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/book/book.component.html ***!
+          \********************************************************************************/
+        /*! exports provided: default */
+        /***/ (function (module, __webpack_exports__, __webpack_require__) {
+            "use strict";
+            __webpack_require__.r(__webpack_exports__);
+            /* harmony default export */ __webpack_exports__["default"] = ("<section class=\"section-book\">\n    <div class=\"row\">\n        <div class=\"book\">\n            <div class=\"book__form\">\n                <form class=\"form\" action=\"#\">\n                    <div class=\"u-margin-bottom-medium\">\n                        <h2 class=\"heading-secondary\">\n                            Start booking now\n                        </h2>\n                    </div>\n                    <div class=\"form__group\">\n                        <input class=\"form__input\" type=\"text\" placeholder=\"Full Name\" id=\"name\">\n                        <label class=\"form__label\" for=\"name\">Full Name</label>\n                    </div>\n                    <div class=\"form__group\">\n                        <input class=\"form__input\" type=\"text\" placeholder=\"E-mail address\" id=\"email\">\n                        <label class=\"form__label\" for=\"email\">E-mail address</label>\n                    </div>\n                </form>\n            </div>\n        </div>\n    </div>\n</section>\n");
             /***/ 
         }),
         /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/features/features.component.html": 
@@ -506,6 +517,7 @@
             /* harmony import */ var _features_features_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./features/features.component */ "./src/app/features/features.component.ts");
             /* harmony import */ var _tours_tours_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./tours/tours.component */ "./src/app/tours/tours.component.ts");
             /* harmony import */ var _stories_stories_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./stories/stories.component */ "./src/app/stories/stories.component.ts");
+            /* harmony import */ var _book_book_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./book/book.component */ "./src/app/book/book.component.ts");
             var AppModule = /** @class */ (function () {
                 function AppModule() {
                 }
@@ -519,7 +531,8 @@
                         _about_about_component__WEBPACK_IMPORTED_MODULE_6__["AboutComponent"],
                         _features_features_component__WEBPACK_IMPORTED_MODULE_7__["FeaturesComponent"],
                         _tours_tours_component__WEBPACK_IMPORTED_MODULE_8__["ToursComponent"],
-                        _stories_stories_component__WEBPACK_IMPORTED_MODULE_9__["StoriesComponent"]
+                        _stories_stories_component__WEBPACK_IMPORTED_MODULE_9__["StoriesComponent"],
+                        _book_book_component__WEBPACK_IMPORTED_MODULE_10__["BookComponent"]
                     ],
                     imports: [
                         _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -529,6 +542,44 @@
                     bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
                 })
             ], AppModule);
+            /***/ 
+        }),
+        /***/ "./src/app/book/book.component.scss": 
+        /*!******************************************!*\
+          !*** ./src/app/book/book.component.scss ***!
+          \******************************************/
+        /*! exports provided: default */
+        /***/ (function (module, __webpack_exports__, __webpack_require__) {
+            "use strict";
+            __webpack_require__.r(__webpack_exports__);
+            /* harmony default export */ __webpack_exports__["default"] = (".section-book {\n  padding: 15rem 0;\n  background-image: linear-gradient(to right bottom, #7ed56f, #28b485);\n}\n\n.book {\n  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url('nat-10.jpg');\n  background-size: 100%;\n  border-radius: 3px;\n  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);\n  height: 50rem;\n}\n\n.book__form {\n  width: 50%;\n  padding: 6rem;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2FjZGFuL0dpdC9VZGVteS1BQ1NTU0FTU0ZHQU0vc3JjL2FwcC9ib29rL2Jvb2suY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2Jvb2svYm9vay5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFFQTtFQUNJLGdCQUFBO0VBQ0Esb0VBQUE7QUNESjs7QURRQTtFQUNJLHdJQUFBO0VBS0EscUJBQUE7RUFDQSxrQkFBQTtFQUNBLDRDQUFBO0VBRUEsYUFBQTtBQ1ZKOztBRFlJO0VBQ0ksVUFBQTtFQUNBLGFBQUE7QUNWUiIsImZpbGUiOiJzcmMvYXBwL2Jvb2svYm9vay5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIkBpbXBvcnQgJy4uLy4uL2Fzc2V0cy9zYXNzL2Fic3RyYWN0cy92YXJpYWJsZXMnO1xuXG4uc2VjdGlvbi1ib29rIHtcbiAgICBwYWRkaW5nOiAxNXJlbSAwO1xuICAgIGJhY2tncm91bmQtaW1hZ2U6IGxpbmVhci1ncmFkaWVudChcbiAgICB0byByaWdodCBib3R0b21cbiAgICAsJGNvbG9yLXByaW1hcnktbGlnaHRcbiAgICAsJGNvbG9yLXByaW1hcnktZGFya1xuICAgICk7XG59XG5cbi5ib29rIHtcbiAgICBiYWNrZ3JvdW5kLWltYWdlOmxpbmVhci1ncmFkaWVudCgxMDVkZWcsXG4gICAgcmdiYSgkY29sb3Itd2hpdGUsIC45KSAwJSxcbiAgICByZ2JhKCRjb2xvci13aGl0ZSwgLjkpIDUwJSxcbiAgICB0cmFuc3BhcmVudCA1MCVcbiAgICApLHVybCguLi8uLi9hc3NldHMvaW1nL25hdC0xMC5qcGcpO1xuICAgIGJhY2tncm91bmQtc2l6ZTogMTAwJTtcbiAgICBib3JkZXItcmFkaXVzOiAzcHg7XG4gICAgYm94LXNoYWRvdzogMCAxLjVyZW0gNHJlbSByZ2JhKCRjb2xvci1ibGFjaywgLjIpO1xuXG4gICAgaGVpZ2h0OiA1MHJlbTtcblxuICAgICZfX2Zvcm0ge1xuICAgICAgICB3aWR0aDogNTAlO1xuICAgICAgICBwYWRkaW5nOiA2cmVtO1xuICAgIH1cbn1cbiIsIi5zZWN0aW9uLWJvb2sge1xuICBwYWRkaW5nOiAxNXJlbSAwO1xuICBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQodG8gcmlnaHQgYm90dG9tLCAjN2VkNTZmLCAjMjhiNDg1KTtcbn1cblxuLmJvb2sge1xuICBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQoMTA1ZGVnLCByZ2JhKDI1NSwgMjU1LCAyNTUsIDAuOSkgMCUsIHJnYmEoMjU1LCAyNTUsIDI1NSwgMC45KSA1MCUsIHRyYW5zcGFyZW50IDUwJSksIHVybCguLi8uLi9hc3NldHMvaW1nL25hdC0xMC5qcGcpO1xuICBiYWNrZ3JvdW5kLXNpemU6IDEwMCU7XG4gIGJvcmRlci1yYWRpdXM6IDNweDtcbiAgYm94LXNoYWRvdzogMCAxLjVyZW0gNHJlbSByZ2JhKDAsIDAsIDAsIDAuMik7XG4gIGhlaWdodDogNTByZW07XG59XG4uYm9va19fZm9ybSB7XG4gIHdpZHRoOiA1MCU7XG4gIHBhZGRpbmc6IDZyZW07XG59Il19 */");
+            /***/ 
+        }),
+        /***/ "./src/app/book/book.component.ts": 
+        /*!****************************************!*\
+          !*** ./src/app/book/book.component.ts ***!
+          \****************************************/
+        /*! exports provided: BookComponent */
+        /***/ (function (module, __webpack_exports__, __webpack_require__) {
+            "use strict";
+            __webpack_require__.r(__webpack_exports__);
+            /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BookComponent", function () { return BookComponent; });
+            /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+            /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+            var BookComponent = /** @class */ (function () {
+                function BookComponent() {
+                }
+                BookComponent.prototype.ngOnInit = function () {
+                };
+                return BookComponent;
+            }());
+            BookComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+                Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+                    selector: 'app-book',
+                    template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./book.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/book/book.component.html")).default,
+                    styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./book.component.scss */ "./src/app/book/book.component.scss")).default]
+                })
+            ], BookComponent);
             /***/ 
         }),
         /***/ "./src/app/features/features.component.scss": 
