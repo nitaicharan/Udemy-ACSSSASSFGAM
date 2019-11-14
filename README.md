@@ -223,6 +223,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 [react-shield]: https://img.shields.io/badge/-React-black.svg?logoColor=white&logo=react&colorB=61DAFB
 
 ## License
-Copyright &copy; Nitai Charan Alvares Pereira. All rights reserved.
+Copyright &copy; Jonas Schmedtmann. All rights reserved.
 
 Licensed under the [GNU General Public License v3.0](LICENSE) license.
