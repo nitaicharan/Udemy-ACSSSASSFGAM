@@ -45,7 +45,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<app-header></app-header>\n<app-about></app-about>\n<app-features></app-features>\n<app-tours></app-tours>\n<app-stories></app-stories>\n<app-book></app-book>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<app-header></app-header>\n<app-about></app-about>\n<app-features></app-features>\n<app-tours></app-tours>\n<app-stories></app-stories>\n<app-book></app-book>\n<app-footer></app-footer>\n");
 
 /***/ }),
 
@@ -72,6 +72,19 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ("<section class=\"section-features\">\n    <div class=\"row\">\n        <div class=\"col-1-of-4\">\n            <div class=\"feature-box\">\n                <i class=\"feature-box__icon icon-basic-world\"></i>\n                <h3 class=\"heading-tertiary u-margin-bottom-small\">Explore the wold</h3>\n                <p class=\"feature-box__text\">Adipisicing assumenda voluptate sequi neque maxime. Mollitia accusantium</p>\n            </div>\n        </div>\n        <div class=\"col-1-of-4\">\n            <div class=\"feature-box\">\n                <i class=\"feature-box__icon icon-basic-compass\"></i>\n                <h3 class=\"heading-tertiary u-margin-bottom-small\">Meet nature</h3>\n                <p class=\"feature-box__text\">Adipisicing assumenda voluptate sequi neque maxime. Mollitia accusantium</p>\n            </div>\n        </div>\n        <div class=\"col-1-of-4\">\n            <div class=\"feature-box\">\n                <i class=\"feature-box__icon icon-basic-map\"></i>\n                <h3 class=\"heading-tertiary u-margin-bottom-small\">Find your way</h3>\n                <p class=\"feature-box__text\">Adipisicing assumenda voluptate sequi neque maxime. Mollitia accusantium</p>\n            </div>\n        </div>\n        <div class=\"col-1-of-4\">\n            <div class=\"feature-box\">\n                <i class=\"feature-box__icon icon-basic-heart\"></i>\n                <h3 class=\"heading-tertiary u-margin-bottom-small\">Live a healthier life</h3>\n                <p class=\"feature-box__text\">Adipisicing assumenda voluptate sequi neque maxime. Mollitia accusantium</p>\n            </div>\n        </div>\n    </div>\n</section>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/footer/footer.component.html":
+/*!************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/footer/footer.component.html ***!
+  \************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<footer class=\"footer\">\n    <div class=\"footer__logo-box\">\n        <img src=\"assets/img/logo-green-2x.png\" alt=\"Logo\" class=\"footer__logo\">\n    </div>\n    <div class=\"row\">\n        <div class=\"col-1-of-2\">\n            <div class=\"footer__navigation\">\n                <ul class=\"footer__list\">\n                    <li class=\"footer__item\">\n                        <a href=\"#\" class=\"footer__link\">Company</a>\n                    </li>\n                    <li class=\"footer__item\">\n                        <a href=\"#\" class=\"footer__link\">Contact us</a>\n                    </li>\n                    <li class=\"footer__item\">\n                        <a href=\"#\" class=\"footer__link\">Careers</a>\n                    </li>\n                    <li class=\"footer__item\">\n                        <a href=\"#\" class=\"footer__link\">Privacy policy</a>\n                    </li>\n                    <li class=\"footer__item\">\n                        <a href=\"#\" class=\"footer__link\">Terms</a>\n                    </li>\n                </ul>\n            </div>\n        </div>\n        <div class=\"col-1-of-2\">\n            <p class=\"footer__copyright\">\n            Built my <a href=\"#\" class=\"footer__link\">Jonas Schmedtmann</a> for his online course <a href=\"#\" class=\"footer__link\">Advanced CSS and SASS</a>. Copyright &copy; by Jonas Schmedtmann. You are 100% allowes to use this webpage for both personal and commercial uses, but not to claim it as your own design. A credit to the original author, Jonas Schmedtmann, is of course always appreciated!\n            </p>\n        </div>\n    </div>\n</footer>\n");
 
 /***/ }),
 
@@ -482,6 +495,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _tours_tours_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./tours/tours.component */ "./src/app/tours/tours.component.ts");
 /* harmony import */ var _stories_stories_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./stories/stories.component */ "./src/app/stories/stories.component.ts");
 /* harmony import */ var _book_book_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./book/book.component */ "./src/app/book/book.component.ts");
+/* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./footer/footer.component */ "./src/app/footer/footer.component.ts");
+
 
 
 
@@ -504,7 +519,8 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _features_features_component__WEBPACK_IMPORTED_MODULE_7__["FeaturesComponent"],
             _tours_tours_component__WEBPACK_IMPORTED_MODULE_8__["ToursComponent"],
             _stories_stories_component__WEBPACK_IMPORTED_MODULE_9__["StoriesComponent"],
-            _book_book_component__WEBPACK_IMPORTED_MODULE_10__["BookComponent"]
+            _book_book_component__WEBPACK_IMPORTED_MODULE_10__["BookComponent"],
+            _footer_footer_component__WEBPACK_IMPORTED_MODULE_11__["FooterComponent"]
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -602,6 +618,50 @@ FeaturesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./features.component.scss */ "./src/app/features/features.component.scss")).default]
     })
 ], FeaturesComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/footer/footer.component.scss":
+/*!**********************************************!*\
+  !*** ./src/app/footer/footer.component.scss ***!
+  \**********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".footer {\n  background-color: #333;\n  padding: 10rem 0;\n  font-size: 1.4rem;\n}\n.footer__logo-box {\n  text-align: center;\n  margin-bottom: 8rem;\n}\n.footer__logo {\n  width: 15rem;\n  height: auto;\n}\n.footer__navigation {\n  border-top: 1px solid #777;\n  padding-top: 2rem;\n  display: inline-block;\n}\n.footer__list {\n  list-style: none;\n}\n.footer__item {\n  display: inline-block;\n}\n.footer__item:not(:last-child) {\n  margin-right: 0.5rem;\n}\n.footer__link, .footer__link:link, .footer__link:visited {\n  color: #f7f7f7;\n  background-color: #333;\n  text-decoration: none;\n  text-transform: uppercase;\n  display: inline-block;\n  transition: all 0.2s;\n}\n.footer__link:hover, .footer__link:active {\n  color: #55c57a;\n  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);\n  transform: rotate(5deg) scale(1.3);\n}\n.footer__copyright {\n  color: #f7f7f7;\n  border-top: 1px solid #777;\n  padding-top: 2rem;\n  width: 80%;\n  float: right;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2FjZGFuL0dpdC9VZGVteS1BQ1NTU0FTU0ZHQU0vc3JjL2FwcC9mb290ZXIvZm9vdGVyLmNvbXBvbmVudC5zY3NzIiwiL2hvbWUvYWNkYW4vR2l0L1VkZW15LUFDU1NTQVNTRkdBTS9zcmMvYXNzZXRzL3Nhc3MvYWJzdHJhY3RzL192YXJpYWJsZXMuc2NzcyIsInNyYy9hcHAvZm9vdGVyL2Zvb3Rlci5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFFQTtFQUNJLHNCQ2NnQjtFRGJoQixnQkFBQTtFQUNBLGlCQUFBO0FFREo7QUZHSTtFQUNJLGtCQUFBO0VBQ0EsbUJBQUE7QUVEUjtBRklJO0VBQ0ksWUFBQTtFQUNBLFlBQUE7QUVGUjtBRktJO0VBQ0ksMEJBQUE7RUFDQSxpQkFBQTtFQUNBLHFCQUFBO0FFSFI7QUZNSTtFQUNJLGdCQUFBO0FFSlI7QUZPSTtFQUNJLHFCQUFBO0FFTFI7QUZPUTtFQUNJLG9CQUFBO0FFTFo7QUZVUTtFQUdJLGNDNUJTO0VENkJULHNCQ3ZCUTtFRHdCUixxQkFBQTtFQUNBLHlCQUFBO0VBQ0EscUJBQUE7RUFDQSxvQkFBQTtBRVZaO0FGYVE7RUFFSSxjQ2hESTtFRGlESiwwQ0FBQTtFQUNBLGtDQUFBO0FFWlo7QUZnQkk7RUFDSSxjQzdDYTtFRDhDYiwwQkFBQTtFQUNBLGlCQUFBO0VBQ0EsVUFBQTtFQUNBLFlBQUE7QUVkUiIsImZpbGUiOiJzcmMvYXBwL2Zvb3Rlci9mb290ZXIuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAaW1wb3J0IFwiLi4vLi4vYXNzZXRzL3Nhc3MvYWJzdHJhY3RzL3ZhcmlhYmxlc1wiO1xuXG4uZm9vdGVyIHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAkY29sb3ItZ3JleS1kYXJrLTM7XG4gICAgcGFkZGluZzogMTByZW0gMDtcbiAgICBmb250LXNpemU6IDEuNHJlbTtcblxuICAgICZfX2xvZ28tYm94IHtcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgICBtYXJnaW4tYm90dG9tOiA4cmVtO1xuICAgIH1cblxuICAgICZfX2xvZ28ge1xuICAgICAgICB3aWR0aDogMTVyZW07XG4gICAgICAgIGhlaWdodDogYXV0bztcbiAgICB9XG5cbiAgICAmX19uYXZpZ2F0aW9uIHtcbiAgICAgICAgYm9yZGVyLXRvcDogMXB4IHNvbGlkICRjb2xvci1ncmV5LWRhcms7XG4gICAgICAgIHBhZGRpbmctdG9wOiAycmVtO1xuICAgICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gICAgfVxuXG4gICAgJl9fbGlzdCB7XG4gICAgICAgIGxpc3Qtc3R5bGU6IG5vbmU7XG4gICAgfVxuXG4gICAgJl9faXRlbSB7XG4gICAgICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcblxuICAgICAgICAmOm5vdCg6bGFzdC1jaGlsZCkge1xuICAgICAgICAgICAgbWFyZ2luLXJpZ2h0OiAuNXJlbTtcbiAgICAgICAgfVxuICAgIH1cblxuICAgICZfX2xpbmsge1xuICAgICAgICAmLFxuICAgICAgICAmOmxpbmssXG4gICAgICAgICY6dmlzaXRlZCB7XG4gICAgICAgICAgICBjb2xvcjogJGNvbG9yLWdyZXktbGlnaHQtMTtcbiAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICRjb2xvci1ncmV5LWRhcmstMztcbiAgICAgICAgICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgICAgICAgICAgIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7XG4gICAgICAgICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gICAgICAgICAgICB0cmFuc2l0aW9uOiBhbGwgLjJzO1xuICAgICAgICB9XG5cbiAgICAgICAgJjpob3ZlcixcbiAgICAgICAgJjphY3RpdmUge1xuICAgICAgICAgICAgY29sb3I6ICRjb2xvci1wcmltYXJ5O1xuICAgICAgICAgICAgYm94LXNoYWRvdzogMCAxcmVtIDJyZW0gcmdiYSgkY29sb3ItYmxhY2ssIC40KTtcbiAgICAgICAgICAgIHRyYW5zZm9ybTogcm90YXRlKDVkZWcpIHNjYWxlKDEuMylcbiAgICAgICAgfVxuICAgIH1cblxuICAgICZfX2NvcHlyaWdodCB7XG4gICAgICAgIGNvbG9yOiAkY29sb3ItZ3JleS1saWdodC0xO1xuICAgICAgICBib3JkZXItdG9wOiAxcHggc29saWQgJGNvbG9yLWdyZXktZGFyaztcbiAgICAgICAgcGFkZGluZy10b3A6IDJyZW07XG4gICAgICAgIHdpZHRoOiA4MCU7XG4gICAgICAgIGZsb2F0OiByaWdodDtcbiAgICB9XG59XG5cbiIsIi8vIENPTE9SU1xuJGNvbG9yLXByaW1hcnk6ICM1NWM1N2E7XG4kY29sb3ItcHJpbWFyeS1saWdodDogIzdlZDU2ZjtcbiRjb2xvci1wcmltYXJ5LWRhcms6ICMyOGI0ODU7XG5cbiRjb2xvci1zZWNvbmRhcnktbGlnaHQ6ICNmZmI5MDA7XG4kY29sb3Itc2Vjb25kYXJ5LWRhcms6ICNmZjc3MzA7XG5cbiRjb2xvci10ZXJ0aWFyeS1saWdodDogIzI5OThmZjtcbiRjb2xvci10ZXJ0aWFyeS1kYXJrOiAjNTY0M2ZhO1xuXG4kY29sb3ItZ3JleS1saWdodC0xOiAjZjdmN2Y3O1xuJGNvbG9yLWdyZXktbGlnaHQtMjogI2VlZTtcblxuXG4kY29sb3ItZ3JleS1kYXJrOiAjNzc3O1xuJGNvbG9yLWdyZXktZGFyay0yOiAjOTk5O1xuJGNvbG9yLWdyZXktZGFyay0zOiAjMzMzO1xuXG5cbiRjb2xvci13aGl0ZTogI2ZmZjtcbiRjb2xvci1ibGFjazogIzAwMDtcblxuLy8gRk9OVFxuXG4kZGVmYXVsdC1mb250LXNpemU6IDEuNnJlbTtcblxuLy8gR1JJRFxuJGdyaWQtd2lkdGg6IDExNHJlbTtcbiRndXR0ZXItdmVydGljYWw6IDhyZW07XG4kZ3V0dGVyLWhvcml6b250YWw6IDZyZW07XG4iLCIuZm9vdGVyIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzMzMztcbiAgcGFkZGluZzogMTByZW0gMDtcbiAgZm9udC1zaXplOiAxLjRyZW07XG59XG4uZm9vdGVyX19sb2dvLWJveCB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgbWFyZ2luLWJvdHRvbTogOHJlbTtcbn1cbi5mb290ZXJfX2xvZ28ge1xuICB3aWR0aDogMTVyZW07XG4gIGhlaWdodDogYXV0bztcbn1cbi5mb290ZXJfX25hdmlnYXRpb24ge1xuICBib3JkZXItdG9wOiAxcHggc29saWQgIzc3NztcbiAgcGFkZGluZy10b3A6IDJyZW07XG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbn1cbi5mb290ZXJfX2xpc3Qge1xuICBsaXN0LXN0eWxlOiBub25lO1xufVxuLmZvb3Rlcl9faXRlbSB7XG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbn1cbi5mb290ZXJfX2l0ZW06bm90KDpsYXN0LWNoaWxkKSB7XG4gIG1hcmdpbi1yaWdodDogMC41cmVtO1xufVxuLmZvb3Rlcl9fbGluaywgLmZvb3Rlcl9fbGluazpsaW5rLCAuZm9vdGVyX19saW5rOnZpc2l0ZWQge1xuICBjb2xvcjogI2Y3ZjdmNztcbiAgYmFja2dyb3VuZC1jb2xvcjogIzMzMztcbiAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICB0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlO1xuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIHRyYW5zaXRpb246IGFsbCAwLjJzO1xufVxuLmZvb3Rlcl9fbGluazpob3ZlciwgLmZvb3Rlcl9fbGluazphY3RpdmUge1xuICBjb2xvcjogIzU1YzU3YTtcbiAgYm94LXNoYWRvdzogMCAxcmVtIDJyZW0gcmdiYSgwLCAwLCAwLCAwLjQpO1xuICB0cmFuc2Zvcm06IHJvdGF0ZSg1ZGVnKSBzY2FsZSgxLjMpO1xufVxuLmZvb3Rlcl9fY29weXJpZ2h0IHtcbiAgY29sb3I6ICNmN2Y3Zjc7XG4gIGJvcmRlci10b3A6IDFweCBzb2xpZCAjNzc3O1xuICBwYWRkaW5nLXRvcDogMnJlbTtcbiAgd2lkdGg6IDgwJTtcbiAgZmxvYXQ6IHJpZ2h0O1xufSJdfQ== */");
+
+/***/ }),
+
+/***/ "./src/app/footer/footer.component.ts":
+/*!********************************************!*\
+  !*** ./src/app/footer/footer.component.ts ***!
+  \********************************************/
+/*! exports provided: FooterComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FooterComponent", function() { return FooterComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let FooterComponent = class FooterComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+FooterComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-footer',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./footer.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/footer/footer.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./footer.component.scss */ "./src/app/footer/footer.component.scss")).default]
+    })
+], FooterComponent);
 
 
 
