@@ -1,4 +1,4 @@
-## Udemy-ACSSSASSFGAM
+## Udemy-ACSSSASSFGAM1
 <!-- PROJECT SHIELDS -->
 ![Angular][angular-shield]
 ![TypeScript][typescript-shield]
@@ -8,14 +8,14 @@
 ![VIM][vim-shield]
 ![Udemy][udemy-shield]
 
-Project available to access at: https://nitaicharan.github.io/Udemy-ACSSSASSFGAM/
+Project available to access at: https://nitaicharan.github.io/Udemy-ACSSSASSFGAM1/
 
-![](https://github.com/nitaicharan/Udemy-ACSSSASSFGAM/blob/master/Udemy-ACSSSASSFGAM.gif?raw=true)
+![](https://github.com/nitaicharan/Udemy-ACSSSASSFGAM/blob/master/Udemy-ACSSSASSFGAM1.gif?raw=true)
 
 ## Deploy
 ```
 ng build
-index.html:base:"/" -> index.html:base:"/Udemy-HTML5ParaQuemNaoSabeNadaDeHTML5/"
+index.html:base:"/" -> index.html:base:"/Udemy-ACSSSASSFGAM1/"
 cp dist/curso/index.html dist/curso/404.html
 
 git add -A
