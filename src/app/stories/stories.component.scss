@@ -1,8 +1,14 @@
 @import '../../assets/sass/abstracts/variables';
+@import '../../assets/sass/bases/_base.scss';
 
 .section-stories {
     position: relative;
     padding: 15rem 0;
+
+
+    @include respond(tab-port) {
+        padding: 10rem 0;
+    }
 }
 
 .story {
