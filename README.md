@@ -1,12 +1,11 @@
 ## Udemy-ACSSSASSFGAM1
 <!-- PROJECT SHIELDS -->
+![Udemy][udemy-shield]
 ![Angular][angular-shield]
 ![TypeScript][typescript-shield]
 ![HTML5][html5-shield]
 ![CSS3][css3-shield]
 ![SASS][sass-shield]
-![VIM][vim-shield]
-![Udemy][udemy-shield]
 
 Project available to access at: https://nitaicharan.github.io/Udemy-ACSSSASSFGAM1/
 
@@ -21,8 +20,8 @@ cp dist/curso/index.html dist/curso/404.html
 git add -A
 git commit -m <titule> <message>
 git push origin <branch>
-git push --delete origin gh-pages
 git subtree push --prefix dist/curso origin gh-pages
+git push origin `git subtree split --prefix dist/curso/ master`:gh-pages --force
 ```
 
 ## About course
@@ -216,7 +215,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 [css3-shield]: https://img.shields.io/badge/-CSS3-black.svg?logo=css3&colorB=1572B6&logoColor=white
 [sass-shield]: https://img.shields.io/badge/-SASS-black.svg?logo=sass&colorB=CC6699&logoColor=white
 [angular-shield]: https://img.shields.io/badge/-Angular-black.svg?logo=angular&colorB=DD0031&logoColor=white
-[vim-shield]: https://img.shields.io/badge/-Vim-black.svg?logo=vim&colorB=019733&logoColor=white
 [java-shield]: https://img.shields.io/badge/-Java-black.svg?logoColor=white&logo=java&&colorB=007396
 [javascript-shield]: https://img.shields.io/badge/-JavaScript-black.svg?logoColor=white&logo=javascript&&colorB=F7DF1E
 [typescript-shield]: https://img.shields.io/badge/-TypeScript-black.svg?logoColor=white&logo=typescript&&colorB=007ACC
