@@ -9,7 +9,7 @@
 
 Project available to access at: https://nitaicharan.github.io/Udemy-ACSSSASSFGAM1/
 
-![](https://github.com/nitaicharan/Udemy-ACSSSASSFGAM/blob/master/Udemy-ACSSSASSFGAM1.gif?raw=true)
+[![](Udemy-ACSSSASSFGAM1.gif)](https://nitaicharan.github.io/Udemy-ACSSSASSFGAM1/)
 
 ## Deploy
 ```
@@ -136,7 +136,7 @@ If you're still with me at this point, then please watch the promo video to take
 - Front-end developers who want to finally understand how CSS works behind the scenes
 - In general: anyone who wants to truly master CSS!
 
-#### Jonas Schmedtmann
+#### [Jonas Schmedtmann](https://www.udemy.com/user/jonasschmedtmann/)
 Web Developer, Designer, and Teacher
 
 Hi, I'm Jonas! I have been identified as one of Udemy's Top Instructors and all my premium courses have recently earned the best-selling status for outstanding performance and student satisfaction.
@@ -156,6 +156,12 @@ Then don't waste your time with random tutorials or incomplete videos. All my co
 *These courses are exactly the courses I wish I had when I was first getting into web development!*
 
 So see for yourself, enroll in one of my courses (or all of them :D) and join my 500,000+ happy students today.
+
+## Certificate
+[![](certificate.jpg)](https://www.udemy.com/certificate/UC-C0BXNCTE/)
+
+### Certificate description
+This certificate above verifies that [Nitai Charan][udemy-url] successfully completed the course [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/course/advanced-css-and-sass/) on 12/27/2019 as taught by [Jonas Schmedtmann](https://www.udemy.com/user/jonasschmedtmann/) on Udemy. The certificate indicates the entire course was completed as validated by the student.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.13.
 
@@ -201,14 +207,16 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 [gmail-url]: mailto:niaicharan@gmail.com?subject=It%20comes%20from%20Github%20profile
 [github-shield]: https://img.shields.io/badge/-Github-black.svg?logo=github&colorB=181717&logoColor=white
 [github-url]: https://github.com/nitaicharan
-[udemy-shield]: https://img.shields.io/badge/-Udemy-black.svg?logo=udemy&colorB=EC5252&logoColor=white
-[udemy-url]: https://www.udemy.com/user/nitai-charan/
 [instagram-shield]: https://img.shields.io/badge/-Instagram-black.svg?logo=instagram&colorB=EC5252&logoColor=white
 [instagram-url]: https://www.instagram.com/nitaicharan/?hl=pt-br
 [twitter-shield]: https://img.shields.io/badge/-Twitter-black.svg?logo=twitter&colorB=1DA1F2&logoColor=white
 [twitter-url]: https://twitter.com/nitaicharan1
 [facebook-shield]: https://img.shields.io/badge/-Facebook-black.svg?logo=facebook&colorB=4172B8&logoColor=white
 [facebook-url]: https://www.facebook.com/NitaiCharan1
+[udemy-shield]: https://img.shields.io/badge/-Udemy-black.svg?logo=udemy&colorB=EC5252&logoColor=white
+[udemy-url]: https://www.udemy.com/user/nitai-charan/
+[hackerrank-shield]: https://img.shields.io/badge/-HackerRank-white.svg?logo=hackerrank&colorB=2EC866&logoColor=white
+[hackerrank-url]: https://www.hackerrank.com/nitaicharan
 
 <!-- PROJECT SHIELDS -->
 [html5-shield]: https://img.shields.io/badge/-HTML5-black.svg?logo=html5&colorB=E34F26&logoColor=white
@@ -219,8 +227,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 [javascript-shield]: https://img.shields.io/badge/-JavaScript-black.svg?logoColor=white&logo=javascript&&colorB=F7DF1E
 [typescript-shield]: https://img.shields.io/badge/-TypeScript-black.svg?logoColor=white&logo=typescript&&colorB=007ACC
 [react-shield]: https://img.shields.io/badge/-React-black.svg?logoColor=white&logo=react&colorB=61DAFB
+[jquery-shield]: https://img.shields.io/badge/-jQuery-white.svg?logo=jquery&colorB=0769AD&logoColor=white
+[spring-shield]: https://img.shields.io/badge/-Spring-white.svg?logo=spring&colorB=6DB33F&logoColor=white
+[flutter-shield]: https://img.shields.io/badge/-Flutter-white.svg?logo=flutter&logoColor=white&colorB=02569B
+[android-shield]: https://img.shields.io/badge/-Android-white.svg?logo=android&logoColor=white&colorB=3DDC84
+[apple-shield]: https://img.shields.io/badge/-Apple-white.svg?logo=apple&logoColor=white&colorB=999999
 
 ## License
-Copyright &copy; Jonas Schmedtmann. All rights reserved.
+Copyright &copy; Nitai Charan. All rights reserved.
 
 Licensed under the [GNU General Public License v3.0](LICENSE) license.
