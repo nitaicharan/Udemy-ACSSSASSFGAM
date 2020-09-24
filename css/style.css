@@ -19,6 +19,11 @@ body {
   padding: 3em;
 }
 
+.paragraph {
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+}
+
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -59,8 +64,12 @@ body {
   text-align: center !important;
 }
 
-.u-margin-bottom-80 {
+.u-margin-bottom-big {
   margin-bottom: 8em !important;
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 1.28205em !important;
 }
 
 .btn, .btn:link, .btn:visited {
@@ -109,10 +118,31 @@ body {
   animation-name: moveInBottom;
   animation-fill-mode: backwards;
 }
+.btn-text, .btn-text:link, .btn-text:visited {
+  display: inline-block;
+  font-size: 1.6rem;
+  color: #55c57a;
+  padding: 0.1875em;
+  text-decoration-line: none;
+  border-bottom-style: solid;
+  border-bottom-color: #55c57a;
+  border-bottom-width: 0.05em;
+  transition-duration: 0.2s;
+}
+.btn-text:hover {
+  background-color: #55c57a;
+  color: #fff;
+  transform: translateY(-0.125em);
+  box-shadow: 0 0.625em 1.25em rgba(0, 0, 0, 0.15);
+}
+.btn-text:active {
+  transform: translateY(0);
+  box-shadow: 0 0.3125em 0.625em rgba(0, 0, 0, 0.15);
+}
 
 .heading-primary {
-  color: #fff;
   text-transform: uppercase;
+  color: #fff;
   margin-bottom: 5em;
 }
 .heading-primary--main {
@@ -147,6 +177,11 @@ body {
 }
 .heading-secondary:hover {
   transform: skew(15deg, 2deg);
+}
+.heading-tertiary {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .header {

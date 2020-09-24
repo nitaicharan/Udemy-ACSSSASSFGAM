@@ -2,8 +2,8 @@
 
 .heading {
     &-primary {
-        color: $color-white;
         text-transform: uppercase;
+        color: $color-white;
         margin-bottom: 5em;
 
         &--main {
@@ -46,5 +46,11 @@
         &:hover {
             transform: skew(15deg, 2deg);
         }
+    }
+
+    &-tertiary {
+        font-size: $default-font-size;
+        font-weight: 700;
+        text-transform: uppercase;
     }
 }

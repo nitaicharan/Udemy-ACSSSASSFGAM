@@ -5,7 +5,7 @@
     &:link,
     &:visited {
         padding: 1em 3.5em;
-        font-size: 1.6rem;
+        font-size: $default-font-size;
         border-radius: 10rem;
         text-decoration: none;
         text-transform: uppercase;
@@ -54,5 +54,33 @@
         animation-delay: 0.75s;
         animation-name: moveInBottom;
         animation-fill-mode: backwards;
+    }
+
+    &-text {
+        &,
+        &:link,
+        &:visited {
+            display: inline-block;
+            font-size: $default-font-size;
+            color: $color-primary;
+            padding: 0.1875em;
+            text-decoration-line: none;
+            border-bottom-style: solid;
+            border-bottom-color: $color-primary;
+            border-bottom-width: 0.05em;
+            transition-duration: 0.2s;
+        }
+
+        &:hover {
+            background-color: $color-primary;
+            color: $color-white;
+            transform: translateY(-0.125em);
+            box-shadow: 0 0.625em 1.25em rgba($color-black, 0.15);
+        }
+
+        &:active {
+            transform: translateY(0);
+            box-shadow: 0 0.3125em 0.625em rgba($color-black, 0.15);
+        }
     }
 }
