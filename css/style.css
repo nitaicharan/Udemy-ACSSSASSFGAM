@@ -60,7 +60,7 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 .btn--white {
-  background-color: #FFF;
+  background-color: #fff;
   color: #777;
 }
 .btn::after {
@@ -85,17 +85,17 @@ body {
 .btn-text, .btn-text:link, .btn-text:visited {
   display: inline-block;
   font-size: 1.6rem;
-  color: #55C57A;
+  color: #55c57a;
   padding: 0.1875em;
   text-decoration-line: none;
   border-bottom-style: solid;
-  border-bottom-color: #55C57A;
+  border-bottom-color: #55c57a;
   border-bottom-width: 0.05em;
   transition-duration: 0.2s;
 }
 .btn-text:hover {
-  background-color: #55C57A;
-  color: #FFF;
+  background-color: #55c57a;
+  color: #fff;
   transform: translateY(-0.125em);
   box-shadow: 0 0.625em 1.25em rgba(0, 0, 0, 0.15);
 }
@@ -106,7 +106,7 @@ body {
 
 .heading-primary {
   text-transform: uppercase;
-  color: #FFF;
+  color: #fff;
   margin-bottom: 5em;
 }
 .heading-primary--main {
@@ -132,7 +132,7 @@ body {
   font-weight: 700;
   letter-spacing: 0.0571429em;
   text-transform: uppercase;
-  background-image: linear-gradient(to right, #7ED56F, #28B485);
+  background-image: linear-gradient(to right, #7ed56f, #28b485);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -171,7 +171,7 @@ body {
   outline-offset: 2rem;
   outline-width: 1.5rem;
   outline-style: solid;
-  outline-color: #55C57A;
+  outline-color: #55c57a;
   transform: scale(1.05) translateY(-0.5rem);
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.5);
   z-index: 1;
@@ -195,12 +195,10 @@ body {
 .card {
   perspective: 150rem;
   position: relative;
-  height: 50rem;
+  height: 52rem;
 }
 .card__side {
-  height: 50rem;
-  color: #fff;
-  font-size: 2rem;
+  height: 52rem;
   transition-property: all;
   transition-timing-function: ease;
   transition-duration: 0.8s;
@@ -210,22 +208,73 @@ body {
   width: 100%;
   backface-visibility: hidden;
   border-radius: 3px;
+  overflow: hidden;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
 }
 .card__side--front {
-  background-color: #FFF;
+  background-color: #fff;
 }
 .card__side--back {
   transform: rotateY(180deg);
 }
 .card__side--back-1 {
-  background-image: linear-gradient(to right bottom, #FFB900, #FF7730);
+  background-image: linear-gradient(to right bottom, #ffb900, #ff7730);
 }
 .card:hover .card__side--front {
-  transform: rotateY(180deg);
+  transform: rotateY(-180deg);
 }
 .card:hover .card__side--back {
   transform: rotateY(0);
+}
+.card__picture {
+  background-size: cover;
+  height: 23rem;
+  background-blend-mode: screen;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+.card__picture--1 {
+  background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/nat-5.jpg);
+}
+.card__picture--2 {
+  background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/nat-5.jpg);
+}
+.card__picture--3 {
+  background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/nat-5.jpg);
+}
+.card__heading {
+  font-size: 2.8rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: right;
+  color: #fff;
+  position: absolute;
+  top: 12rem;
+  right: 2rem;
+  width: 75%;
+}
+.card__heading-span {
+  padding: 1rem 1.5rem;
+  box-decoration-break: clone;
+  --webkit-box-decoration-break: clone;
+}
+.card__heading-span--1 {
+  background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85));
+}
+.card__details {
+  padding: 3rem;
+}
+.card__details ul {
+  list-style: none;
+  width: 80%;
+  margin: 0 auto;
+}
+.card__details ul li {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+.card__details ul li:not(:last-child) {
+  border-bottom: 1px solid #eee;
 }
 
 .feature-box {
@@ -241,7 +290,7 @@ body {
   font-size: 6rem;
   margin-bottom: 0.5rem;
   display: inline-block;
-  background-image: linear-gradient(to right, #7ED56F, #28B485);
+  background-image: linear-gradient(to right, #7ed56f, #28b485);
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -313,7 +362,7 @@ body {
 }
 
 .section-about {
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   padding: 25em 0;
   margin-top: -20vh;
 }
@@ -330,7 +379,7 @@ body {
 }
 
 .section-tours {
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   padding: 25rem 0 50rem 0;
   margin-top: -10rem;
 }
