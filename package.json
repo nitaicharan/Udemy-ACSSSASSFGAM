@@ -4,7 +4,8 @@
     "description": "This project was part of the Udemy course \"Construindo Aplicações Web Com o Novo Angular (4, 5 e 6)\" by Tarso Bessa.",
     "main": "index.js",
     "scripts": {
-        "compile:sass": "node-sass --watch sass/main.scss css/style.css"
+        "compile:sass": "node-sass --watch sass/main.scss css/style.css",
+        "start": "live-server"
     },
     "repository": {
         "type": "git",
@@ -17,6 +18,7 @@
     },
     "homepage": "https://github.com/nitaicharan/Udemy-ACSSSASSFGAM1#readme",
     "devDependencies": {
+        "live-server": "^1.2.1",
         "node-sass": "^5.0.0"
     }
 }
