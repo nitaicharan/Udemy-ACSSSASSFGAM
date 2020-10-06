@@ -4,7 +4,7 @@
     "description": "This project was part of the Udemy course \"Construindo Aplicações Web Com o Novo Angular (4, 5 e 6)\" by Tarso Bessa.",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "compile:sass": "node-sass --watch sass/main.scss css/style.css"
     },
     "repository": {
         "type": "git",
