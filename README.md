@@ -1,19 +1,15 @@
-## Udemy-ACSSSASSFGAM1
-
 <!-- PROJECT SHIELDS -->
 
-![Udemy][udemy-shield]
-![Angular][angular-shield]
-![TypeScript][typescript-shield]
 ![HTML5][html5-shield]
 ![CSS3][css3-shield]
 ![Sass][sass-shield]
 
-Project available to access at: https://nitaicharan.github.io/Udemy-ACSSSASSFGAM1/
+<p align="center">:bangbang: Documentation available to access at: https://nitaicharan.github.io/Udemy-ACSSSASSFGAM4 :bangbang:</p>
 
-<a href="https://nitaicharan.github.io/Udemy-ACSSSASSFGAM1">
+<!--[![](Udemy-ACSSSASSFGAM4.png)](https://nitaicharan.github.io/Udemy-ACSSSASSFGAM4/)-->
+<a href="https://nitaicharan.github.io/Udemy-ACSSSASSFGAM4">
   <p align="center">
-    <img src="Udemy-ACSSSASSFGAM1.gif">
+    <img src="PREVIEW.gif">
   </p>
 </a>
 
@@ -30,7 +26,7 @@ This project was part of the Udemy course "Construindo Aplicações Web Com o No
 This certificate above verifies that [Nitai Charan][udemy-url] successfully completed the course [Advanced CSS and Sass: Flexbox, Grid, Animations and More!][course-url] on 12/27/2019 as taught by [Jonas Schmedtmann][instructor-url] on Udemy. The certificate indicates the entire course was completed as validated by the student.
 
 <p align="center">
-  <img src="certificate.jpg">
+  <img src="CERTIFICATE.jpg">
 </p>
 
 ## Contact
@@ -46,7 +42,7 @@ This certificate above verifies that [Nitai Charan][udemy-url] successfully comp
 
 ```
 ng build
-index.html:base:"/" -> index.html:base:"/Udemy-ACSSSASSFGAM1/"
+index.html:base:"/" -> index.html:base:"/Udemy-ACSSSASSFGAM4/"
 cp dist/curso/index.html dist/course/404.html
 
 git add -A
@@ -64,6 +60,7 @@ git push origin `git subtree split --prefix dist/course/ master`:gh-pages --forc
 [course-url]: https://www.udemy.com/course/advanced-css-and-sass/
 [instructor-url]: https://udemy.com/user/jonasschmedtmann/
 [certificate-url]: https://ude.my/UC-C0BXNCTE
+
 <!-- CONTACT SHIELDS -->
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-white.svg?logo=linkedin&colorB=0077B5&logoColor=white
@@ -81,7 +78,7 @@ git push origin `git subtree split --prefix dist/course/ master`:gh-pages --forc
 [udemy-shield]: https://img.shields.io/badge/-Udemy-black.svg?logo=udemy&colorB=EC5252&logoColor=white
 [udemy-url]: https://udemy.com/user/nitai-charan/
 [hackerrank-shield]: https://img.shields.io/badge/-HackerRank-white.svg?logo=hackerrank&colorB=2EC866&logoColor=white
-[hackerrank-url]: https://www.hackerrank.com/nitaicharan
+[hackerrank-url]: https://hackerrank.com/nitaicharan
 
 <!-- PROJECT SHIELDS -->
 
@@ -98,3 +95,5 @@ git push origin `git subtree split --prefix dist/course/ master`:gh-pages --forc
 [flutter-shield]: https://img.shields.io/badge/-Flutter-white.svg?logo=flutter&logoColor=white&colorB=02569B
 [android-shield]: https://img.shields.io/badge/-Android-white.svg?logo=android&logoColor=white&colorB=3DDC84
 [apple-shield]: https://img.shields.io/badge/-Apple-white.svg?logo=apple&logoColor=white&colorB=999999
+[bootstrap-shield]:https://img.shields.io/badge/-Bootstrap-white.svg?logo=bootstrap&logoColor=white&colorB=563D7C
+[react-shield]:https://img.shields.io/badge/-React-white.svg?logo=react&logoColor=white&colorB=61DAFB
