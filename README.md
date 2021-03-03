@@ -9,7 +9,7 @@
 <!--[![](Udemy-ACSSSASSFGAM4.png)](https://nitaicharan.github.io/Udemy-ACSSSASSFGAM4/)-->
 <a href="https://nitaicharan.github.io/Udemy-ACSSSASSFGAM4">
   <p align="center">
-    <img src="PREVIEW.gif">
+    <img src="PREVIEW.png">
   </p>
 </a>
 
