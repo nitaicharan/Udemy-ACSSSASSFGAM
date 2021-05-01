@@ -1,0 +1,22 @@
+{
+    "name": "udemyacsssassfgam4",
+    "version": "1.0.0",
+    "description": "This project was part of the Udemy course \"Construindo Aplicações Web Com o Novo Angular (4, 5 e 6)\" by Tarso Bessa.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nitaicharan/Udemy-ACSSSASSFGAM1.git"
+    },
+    "author": "Nitai Charan",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/nitaicharan/Udemy-ACSSSASSFGAM1/issues"
+    },
+    "homepage": "https://github.com/nitaicharan/Udemy-ACSSSASSFGAM1#readme",
+    "devDependencies": {
+        "node-sass": "^5.0.0"
+    }
+}

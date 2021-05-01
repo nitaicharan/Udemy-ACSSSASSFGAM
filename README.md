@@ -4,10 +4,10 @@
 ![CSS3][css3-shield]
 ![Sass][sass-shield]
 
-<p align="center">:bangbang: Documentation available to access at: https://nitaicharan.github.io/Udemy-ACSSSASSFGAM4 :bangbang:</p>
+<p align="center">:bangbang: Documentation available to access at: https://nitaicharan.github.io/Udemy-ACSSSASSFGAM1 :bangbang:</p>
 
-<!--[![](Udemy-ACSSSASSFGAM4.png)](https://nitaicharan.github.io/Udemy-ACSSSASSFGAM4/)-->
-<a href="https://nitaicharan.github.io/Udemy-ACSSSASSFGAM4">
+<!--[![](PREVIEW.png)](https://nitaicharan.github.io/Udemy-ACSSSASSFGAM1/)-->
+<a href="https://nitaicharan.github.io/Udemy-ACSSSASSFGAM1">
   <p align="center">
     <img src="PREVIEW.png">
   </p>
@@ -42,7 +42,7 @@ This certificate above verifies that [Nitai Charan][udemy-url] successfully comp
 
 ```
 ng build
-index.html:base:"/" -> index.html:base:"/Udemy-ACSSSASSFGAM4/"
+index.html:base:"/" -> index.html:base:"/Udemy-ACSSSASSFGAM1/"
 cp dist/curso/index.html dist/course/404.html
 
 git add -A
