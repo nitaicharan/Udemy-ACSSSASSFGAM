@@ -13,9 +13,9 @@
   </p>
 </a>
 
-## About course
+## About project
 
-This project was part of the Udemy course "Construindo Aplicações Web Com o Novo Angular (4, 5 e 6)" by Tarso Bessa.
+This project was part of the Udemy course "Advanced CSS and Sass: Flexbox, Grid, Animations and more!" by Jonas Schmedtmann.
 
 - [Course][course-url]
 - [Instructor][instructor-url]
@@ -55,7 +55,7 @@ git push origin `git subtree split --prefix dist/course/ master`:gh-pages --forc
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-<!-- ALIES README -->
+<!-- ALIAS README -->
 
 [course-url]: https://www.udemy.com/course/advanced-css-and-sass/
 [instructor-url]: https://udemy.com/user/jonasschmedtmann/

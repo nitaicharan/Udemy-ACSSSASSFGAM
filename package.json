@@ -1,28 +1,16 @@
 {
-    "name": "udemyacsssassfgam4",
-    "version": "1.0.0",
-    "description": "This project was part of the Udemy course \"Construindo Aplicações Web Com o Novo Angular (4, 5 e 6)\" by Tarso Bessa.",
-    "main": "index.js",
-    "scripts": {
-        "compile:sass": "node-sass --watch sass/main.scss css/style.css",
-        "server": "live-server",
-	"start": "npm-run-all --parallel compile:sass server"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/nitaicharan/Udemy-ACSSSASSFGAM1.git"
-    },
-    "author": "Nitai Charan",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/nitaicharan/Udemy-ACSSSASSFGAM1/issues"
-    },
-    "homepage": "https://github.com/nitaicharan/Udemy-ACSSSASSFGAM1#readme",
-    "devDependencies": {
-        "live-server": "^1.2.1",
-        "node-sass": "^5.0.0"
-    },
-    "dependencies": {
-        "npm-run-all": "^4.1.5"
-    }
+  "name": "udemyacsssassfgam1",
+  "version": "2.0.0",
+  "description": "This project was part of the Udemy course \"Advanced CSS and Sass: Flexbox, Grid, Animations and more!\" by Jonas Schmedtmann.",
+  "scripts": {
+    "server": "live-server",
+    "start": "npm-run-all --parallel server"
+  },
+  "repository": "git@github.com:nitaicharan/Udemy-ACSSSASSFGAM1.git",
+  "author": "Nitai Charan <nitaicharan@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "npm-run-all": "^4.1.5"
+  }
 }
