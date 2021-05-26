@@ -4,14 +4,14 @@
     "scripts": {
         "server": "live-server --no-browser",
         "start": "npm-run-all --parallel server compile:sass",
-        "compile:sass": "node-sass --indent-type space --indent-width 4 --output-style expanded --watch sass/main.scss css/style.css"
+        "compile:sass": "sass --style expanded --watch sass/main.scss css/style.css"
     },
     "repository": "git@github.com:nitaicharan/Udemy-ACSSSASSFGAM1.git",
     "author": "Nitai Charan <nitaicharan@gmail.com>",
     "license": "MIT",
     "devDependencies": {
         "live-server": "^1.2.1",
-        "node-sass": "^6.0.0",
-        "npm-run-all": "^4.1.5"
+        "npm-run-all": "^4.1.5",
+        "sass": "^1.34.0"
     }
 }

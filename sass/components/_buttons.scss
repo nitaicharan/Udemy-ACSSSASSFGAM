@@ -1,0 +1,58 @@
+@use '../base/variables' as *;
+
+.btn {
+    &,
+    &:link,
+    &:visited {
+        padding: 1em 3.5em;
+        font-size: 1.6rem;
+        border-radius: 10rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: inline-block;
+        transition-property: all;
+        transition-duration: 0.1s;
+        position: relative;
+    }
+
+    &:hover {
+        transform: translateY(-0.3rem);
+        box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+
+        &::after {
+            opacity: 0;
+            transform: scale(1.5);
+        }
+    }
+
+    &:active {
+        transform: translateY(-0.1rem);
+        box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
+    }
+
+    &--white {
+        background-color: $color-white;
+        color: $color-grey-dark;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 10rem;
+        z-index: -1;
+        background-color: rgb(255, 255, 255);
+        transition-property: all;
+        transition-duration: 0.4s;
+    }
+
+    &--animated {
+        animation-duration: 0.5s;
+        animation-delay: 0.75s;
+        animation-name: moveInBottom;
+        animation-fill-mode: backwards;
+    }
+}
