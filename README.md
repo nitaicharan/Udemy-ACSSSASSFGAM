@@ -17,9 +17,9 @@
 
 This project was part of the Udemy course "Advanced CSS and Sass: Flexbox, Grid, Animations and more!" by Jonas Schmedtmann.
 
-- [Course][course-url]
-- [Instructor][instructor-url]
-- [Certificate][certificate-url]
+-   [Course][course-url]
+-   [Instructor][instructor-url]
+-   [Certificate][certificate-url]
 
 ### Certificate
 
@@ -95,5 +95,5 @@ git push origin `git subtree split --prefix dist/course/ master`:gh-pages --forc
 [flutter-shield]: https://img.shields.io/badge/-Flutter-white.svg?logo=flutter&logoColor=white&colorB=02569B
 [android-shield]: https://img.shields.io/badge/-Android-white.svg?logo=android&logoColor=white&colorB=3DDC84
 [apple-shield]: https://img.shields.io/badge/-Apple-white.svg?logo=apple&logoColor=white&colorB=999999
-[bootstrap-shield]:https://img.shields.io/badge/-Bootstrap-white.svg?logo=bootstrap&logoColor=white&colorB=563D7C
-[react-shield]:https://img.shields.io/badge/-React-white.svg?logo=react&logoColor=white&colorB=61DAFB
+[bootstrap-shield]: https://img.shields.io/badge/-Bootstrap-white.svg?logo=bootstrap&logoColor=white&colorB=563D7C
+[react-shield]: https://img.shields.io/badge/-React-white.svg?logo=react&logoColor=white&colorB=61DAFB
