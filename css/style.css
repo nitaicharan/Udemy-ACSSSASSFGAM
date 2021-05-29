@@ -25,7 +25,7 @@ body {
     font-weight: 400;
     line-height: 1.7;
     color: #777;
-    padding: 3rem;
+    padding: 3em;
 }
 
 .header {
@@ -40,7 +40,7 @@ body {
     position: relative;
 }
 
-.logo {
+.header__logo {
     height: 3.5rem;
 }
 
@@ -50,7 +50,7 @@ body {
     left: 4rem;
 }
 
-.text-box {
+.header__text-box {
     position: absolute;
     top: 40%;
     left: calc(50%);
@@ -61,10 +61,10 @@ body {
 .heading-primary {
     color: #fff;
     text-transform: uppercase;
-    margin-bottom: 6rem;
+    margin-bottom: 5em;
 }
 
-.heading-primary-main {
+.heading-primary--main {
     display: block;
     font-size: 6rem;
     font-weight: 400;
@@ -74,7 +74,7 @@ body {
     animation-timing-function: ease-out;
 }
 
-.heading-primary-sub {
+.heading-primary--sub {
     display: block;
     font-size: 2rem;
     font-weight: 700;
@@ -86,7 +86,7 @@ body {
 
 .btn:link,
 .btn:visited {
-    padding: 1.5rem 4rem;
+    padding: 1em 3.5em;
     font-size: 1.6rem;
     border-radius: 10rem;
     text-decoration: none;
@@ -108,16 +108,16 @@ body {
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
 }
 
-.btn-white {
+.btn--white {
     background-color: #fff;
     color: #777;
 }
 
-.btn-animated {
+.btn--animated {
     position: relative;
 }
 
-.btn-animated::after {
+.btn--animated::after {
     content: "";
     position: absolute;
     top: 0;
@@ -128,7 +128,7 @@ body {
     z-index: -1;
 }
 
-.btn-animated:hover::after {
+.btn--animated:hover::after {
     background-color: rgb(255, 255, 255);
     animation-name: moveButton;
     animation-duration: .5s;
