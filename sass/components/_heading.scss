@@ -1,27 +1,50 @@
 @use '../base/variables' as *;
 
-.heading-primary {
-    color: $color-white;
-    text-transform: uppercase;
-    margin-bottom: 5em;
+.heading {
+    &-primary {
+        color: $color-white;
+        text-transform: uppercase;
+        margin-bottom: 5em;
 
-    &--main {
-        display: block;
-        font-size: 6rem;
-        font-weight: 400;
-        letter-spacing: 3.5rem;
-        animation-duration: 1s;
-        animation-name: moveInLeft;
-        animation-timing-function: ease-out;
+        &--main {
+            display: block;
+            font-size: 6rem;
+            font-weight: 400;
+            letter-spacing: 3.5rem;
+            animation-duration: 1s;
+            animation-name: moveInLeft;
+            animation-timing-function: ease-out;
+        }
+
+        &--sub {
+            display: block;
+            font-size: 2rem;
+            font-weight: 700;
+            letter-spacing: 1.5rem;
+            animation-name: moveInRight;
+            animation-duration: 1s;
+            animation-timing-function: ease-out;
+        }
     }
 
-    &--sub {
-        display: block;
-        font-size: 2rem;
+    &-secondary {
+        font-size: 3.5rem;
         font-weight: 700;
-        letter-spacing: 1.5rem;
-        animation-name: moveInRight;
-        animation-duration: 1s;
-        animation-timing-function: ease-out;
+        letter-spacing: 0.0571429em;
+        text-transform: uppercase;
+        background-image: linear-gradient(
+            to right,
+            $color-primary-light,
+            $color-primary-dark
+        );
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        transition-property: all;
+        transition-duration: 0.2s;
+
+        &:hover {
+            transform: skew(15deg, 2deg);
+        }
     }
 }
