@@ -1,0 +1,7 @@
+@mixin clean {
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
